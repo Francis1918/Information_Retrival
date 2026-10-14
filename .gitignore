@@ -18,3 +18,8 @@ __pycache__/
 # Sistema operativo
 .DS_Store
 Thumbs.db
+
+# Artefactos de ejecución
+*.joblib
+reports/figures/*.png
+reports/tables/*.csv
