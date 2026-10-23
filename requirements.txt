@@ -7,3 +7,6 @@ seaborn==0.13.2
 joblib==1.6.0
 notebook
 ipykernel==7.4.0
+# Tarea2 (recuperacion de informacion). La coleccion Gutenberg de NLTK no es un paquete de pip: se instala a mano fuera del notebook (python -m nltk.downloader gutenberg).
+nltk==3.10.4
+psutil==7.2.2
