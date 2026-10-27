@@ -30,7 +30,7 @@ El 2026-10-27 se ejecutó el notebook completo desde un kernel nuevo con `nbclie
 ## Pendientes de cierre
 
 1. La auditoría de la Parte A rechazó la entrega en su momento: PEND-3 indica que RNF-9 exige normalizar cada término una sola vez y evitar trabajo repetido, pero las celdas C13, C22, C25 y C26 repiten normalizaciones y búsquedas. La ejecución posterior sin errores no demuestra que se haya corregido. Revisar y resolver antes de declarar conformidad con la spec 001.
-2. Falta registrar una aceptación humana concreta de la Parte A y completar T-45; actualizar documentos no implica aceptar sus resultados. P1, P2, P3, P8 y P9 tienen evidencia técnica de ejecución, registrada en el plan, pero el cierre formal sigue pendiente.
+2. T-45 está terminada según confirmó el usuario el 2026-10-27; P1, P2, P3, P8 y P9 tienen evidencia técnica registrada en el plan. La confirmación no especificó el nombre de quien aceptó, ni la fecha o el tiempo de la aceptación original; no se deben inventar esos datos. PEND-3 es un hallazgo distinto y sigue sin resolución demostrada.
 3. El principio 3 de `docs/constitution.md` pide que lectura de documentos, medición de memoria/disco y gráficas estén en celdas separadas. En B3 la lectura y las mediciones de recursos están en la misma celda; debe corregirse o resolverse con el usuario antes de declarar conformidad. Las gráficas están en C1 y C2.
 4. Las notas retrospectivas de B y C en `specs/002-parte-b-corpus-grande/` y `specs/003-parte-c-escalabilidad/` describen lo realizado; no representan un ciclo SDD previo ni una aprobación humana inventada. Falta una revisión integral de B y C contra los requisitos y la constitución.
 
@@ -38,4 +38,4 @@ El 2026-10-27 se ejecutó el notebook completo desde un kernel nuevo con `nbclie
 
 Ejecutar las celdas en orden desde un kernel nuevo. C27 hace las repeticiones de A; B3 hace las de B para los cinco tamaños; C1 y C2 reutilizan los resultados de B3. Cada una de esas celdas se ejecuta una sola vez por recorrido. Las salidas guardadas pueden inspeccionarse sin volver a ejecutar el experimento largo.
 
-El usuario pidió trabajar en español, no hacer commit sin que lo solicite y no hacer push. Los documentos aprobados solo se cambian con su aprobación; el 2026-10-27 autorizó actualizarlos para reflejar el estado actual, no expresó una aceptación humana del resultado. La rama activa observada era `tarea1-revml`.
+El usuario pidió trabajar en español, no hacer commit sin que lo solicite y no hacer push. Los documentos aprobados solo se cambian con su aprobación; el 2026-10-27 autorizó actualizarlos y confirmó que T-45 ya estaba terminada. La rama activa observada era `tarea1-revml`.

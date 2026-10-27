@@ -315,12 +315,12 @@
   - Archivos involucrados: `02_booleansearch.ipynb`
   - Hecho cuando: con el kernel recién iniciado, el notebook termina sin errores ni aserciones fallidas; en la segunda ejecución coinciden resultados, inventario, tamaños, DF e informe salvo los tiempos (RNF-1); queda anotado el tiempo de C29 frente a 5 minutos (cierra P8) y si alguna media salió en 0 por la resolución del reloj (cierra P9).
 
-- [ ] T-45 Registrar la aceptación humana y el cierre de los pendientes (requiere aprobación humana)
+- [x] T-45 Registrar la aceptación humana y el cierre de los pendientes (requiere aprobación humana)
   - RF cubiertos: ninguno nuevo; cierra el último criterio de finalización de la spec (§8, §9.1)
   - Depende de: T-44
   - Archivos involucrados: `specs/001-parte-a-corpus-pequeno/spec.md` (§9.1) y `plan.md` (§9)
   - Hecho cuando: una persona aprueba el cambio (la spec no cambia sin aprobación humana `[P 2]`); spec §9.1 muestra quién acepta el tiempo real, la fecha y el tiempo medido; plan §9 marca P1, P2, P3, P8 y P9 como resueltas.
-  - Estado 2026-10-27: los resultados técnicos se registraron en spec §9.1 y plan §9, pero no consta aceptación humana del tiempo ni cierre de PEND-3; por eso la tarea sigue abierta.
+  - Estado 2026-10-27: el usuario confirmó que T-45 ya estaba terminada. La confirmación no identifica a quien aceptó ni precisa la fecha o el tiempo de la aceptación original. PEND-3 es un hallazgo de la auditoría y su resolución no se deduce de esta confirmación.
 
 ---
 

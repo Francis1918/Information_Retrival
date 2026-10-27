@@ -1,6 +1,6 @@
 # Validación de la entrega: Spec 001, Parte A (corpus pequeño)
 
-> **Nota de estado, 2026-10-27:** Este informe conserva la auditoría histórica del 2026-10-24 sobre el commit identificado abajo. El notebook se ejecutó después con las partes B y C sin errores; esa ejecución no es una nueva auditoría integral y no demuestra resuelto PEND-3. Se añadieron registros técnicos a spec §9.1 y plan §9; sigue sin constar la aceptación humana requerida por T-45. Para el estado actualizado de toda la tarea, ver `../../docs/estado-tarea2.md`.
+> **Nota de estado, 2026-10-27:** Este informe conserva la auditoría histórica del 2026-10-24 sobre el commit identificado abajo. El notebook se ejecutó después con las partes B y C sin errores; esa ejecución no es una nueva auditoría integral y no demuestra resuelto PEND-3. Se añadieron registros técnicos a spec §9.1 y plan §9, y el usuario confirmó posteriormente que T-45 ya estaba terminada; no especificó los datos de la aceptación original. Para el estado actualizado de toda la tarea, ver `../../docs/estado-tarea2.md`.
 
 | | |
 |---|---|

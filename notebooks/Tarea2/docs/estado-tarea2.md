@@ -15,7 +15,7 @@ La ejecución completa tomó 740,1 s y el mayor subconjunto llegó a una RSS de 
 ## Pendientes
 
 - Resolver el hallazgo PEND-3 de `../specs/001-parte-a-corpus-pequeno/validation.md`: la implementación repite normalizaciones y búsquedas que RNF-9 pide no repetir.
-- Completar la revisión y aceptación humana de la Parte A y registrar T-45; la autorización para actualizar documentación no equivale a esa aceptación.
+- T-45: el usuario confirmó su finalización el 2026-10-27. No se han documentado el nombre, la fecha ni el tiempo de la aceptación original; la confirmación no permite deducirlos.
 - Resolver la discrepancia con el principio 3 de `constitution.md`: B3 reúne en una celda la lectura de documentos y las mediciones de recursos, aunque el principio pide celdas separadas.
 - Realizar una revisión integral de las partes B y C contra el enunciado y la constitución. Sus documentos en `../specs/002-parte-b-corpus-grande/` y `../specs/003-parte-c-escalabilidad/` son descripciones retrospectivas, no evidencias de aprobación previa.
 
