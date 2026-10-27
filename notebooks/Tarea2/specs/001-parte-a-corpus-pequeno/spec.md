@@ -303,6 +303,8 @@ Algunos requisitos agrupan varios comportamientos (RF-2.6, RF-2.10, RF-8.3, RF-1
 
 1. **[NECESITA ACLARACIÓN]** Presupuesto de 5 minutos de RNF-9: es una estimación, no una medición. Debe validarse en la primera ejecución completa (responsable: el autor). Si se supera, se informa el tiempo real y una persona decide si lo acepta. **Aceptación:** pendiente de registrar (persona, fecha y tiempo real).
 
+   **Registro técnico, 2026-10-27:** C29 informó 74,5 s para la Parte A en una ejecución completa desde kernel nuevo. Las ejecuciones anteriores registradas en el contexto fueron 261,0 s, 81,3 s y 86,6 s. Estos valores estuvieron por debajo de 300 s, pero este registro no atribuye aceptación a ninguna persona. La auditoría de `validation.md` también dejó abierto PEND-3 sobre trabajo repetido de RNF-9; ejecutar sin errores no demuestra su corrección.
+
 ### Resueltas en la revisión 1 (2026-10-22)
 
 - **Calentamiento:** 3 ejecuciones por consulta y mecanismo, como valor único y reutilizable en las Partes B y C (RF-12.3).

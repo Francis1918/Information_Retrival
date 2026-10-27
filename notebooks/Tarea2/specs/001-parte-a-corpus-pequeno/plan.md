@@ -597,7 +597,9 @@ Módulos reutilizados: ninguno. Módulos extendidos: ninguno.
 
 No se pueden deducir de los documentos y no se inventan aquí.
 
-**Resueltas al aprobar el plan (2026-10-22):** P4 (el conjunto de trabajo de `resolver_secuencial` es aceptable), P5 (las celdas vacías existentes se dejan donde están), P6 (`requirements.txt` declara `nltk` y `psutil`, ver §8) y P7 (orden de las 33 consultas tal como se propuso). Siguen pendientes P1, P2, P3, P8 y P9, que dependen de instalar la colección y de ejecutar.
+**Resueltas al aprobar el plan (2026-10-22):** P4 (el conjunto de trabajo de `resolver_secuencial` es aceptable), P5 (las celdas vacías existentes se dejan donde están), P6 (`requirements.txt` declara `nltk` y `psutil`, ver §8) y P7 (orden de las 33 consultas tal como se propuso). La tabla siguiente conserva las preguntas y las razones originales del plan.
+
+**Registro técnico posterior (2026-10-27):** P1: se eligieron y comprobaron los nueve términos de C02; P2: el lector de NLTK declara `latin1` y el inventario quedó en C10; P3: la ejecución y las pruebas de C07 verificaron las operaciones del lector y el tratamiento de ausencia; P8: C29 mostró 74,5 s en la ejecución completa más reciente, por debajo de 300 s; P9: las ejecuciones de referencia anteriores registraron una resolución de 100 ns y ninguna media en cero. Estos registros no sustituyen la aceptación humana de T-45. Además, la auditoría de `validation.md` mantiene el hallazgo PEND-3 sobre trabajo repetido de RNF-9.
 
 | ID | Pendiente | Por qué falta | Cuándo se resuelve |
 |---|---|---|---|
